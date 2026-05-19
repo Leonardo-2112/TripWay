@@ -257,3 +257,15 @@ section p {
   color: var(--cor-texto-suave);
   margin: 0;
 }
+
+/* CARDS - PACOTES*/
+
+.pacotes-lista {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  text-align: left;
+}
