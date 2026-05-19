@@ -2,9 +2,9 @@
 
 ## Integrantes
 
-- Nome 1 - RM
-- Nome 2 - RM
-- Nome 3 - RM
+- Leonardo Afonço Sousa - RM: 573982
+- Syang Cristina Gomes Souza - RM: 569259
+- Matheus Jones Sousa de Freitas - RM: 573559
 
 ## Descrição
 
