@@ -84,3 +84,10 @@ nav {
   background-color: var(--cor-primaria);
   color: #ffffff;
 }
+
+/* HEADER*/
+header {
+  text-align: center;
+  padding: 3rem 1.5rem 2rem;
+  background: linear-gradient(135deg, #e8f5ee 0%, #f9f9f6 100%);
+}
