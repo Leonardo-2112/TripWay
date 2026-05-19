@@ -203,3 +203,12 @@ section p {
   background-color: var(--cor-primaria-escura);
   transform: translateY(-2px);
 }
+
+/*CARDS - DESTINOS*/
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
