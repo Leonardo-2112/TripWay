@@ -308,7 +308,7 @@ section p {
   transition: color var(--transicao);
 }
 
-pacote-card-body h2 a:hover {
+.pacote-card-body h2 a:hover {
   color: var(--cor-primaria-escura);
 }
 
@@ -335,4 +335,60 @@ pacote-card-body h2 a:hover {
   border-radius: 20px;
   font-weight: 700;
   font-size: 0.95rem;
+}
+
+
+/* FORMULÁRIO - CONTATO */
+
+#form-reserva {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+#form-reserva h2 {
+  text-align: center;
+  color: var(--cor-primaria);
+  margin-bottom: 0.5rem;
+}
+
+.form-grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.form-grupo label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--cor-texto);
+}
+
+.form-grupo input,
+.form-grupo select,
+.form-grupo textarea {
+  padding: 0.65rem 0.9rem;
+  border: 1px solid var(--cor-borda);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-family: var(--fonte-principal);
+  background-color: #fff;
+  color: var(--cor-texto);
+  transition: border-color var(--transicao), box-shadow var(--transicao);
+}
+
+.form-grupo input:focus,
+.form-grupo select:focus,
+.form-grupo textarea:focus {
+  outline: none;
+  border-color: var(--cor-primaria);
+  box-shadow: 0 0 0 3px rgba(26, 107, 74, 0.15);
+}
+
+.form-grupo textarea {
+  min-height: 110px;
+  resize: vertical;
 }
