@@ -434,3 +434,7 @@ footer p {
   font-size: 0.88rem;
   transition: color var(--transicao);
 }
+
+.footer-social a:hover {
+  color: var(--cor-secundaria);
+}
