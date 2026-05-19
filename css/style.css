@@ -277,3 +277,8 @@ section p {
   overflow: hidden;
   transition: box-shadow var(--transicao), transform var(--transicao);
 }
+
+.pacote-card:hover {
+  box-shadow: var(--sombra-card-hover);
+  transform: translateY(-3px);
+}
