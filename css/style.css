@@ -402,3 +402,8 @@ section p {
   box-shadow: var(--sombra-card);
   margin-top: 1rem;
 }
+
+#sobre h2 {
+  color: var(--cor-primaria);
+  margin-bottom: 0.8rem;
+}
