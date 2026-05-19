@@ -360,3 +360,9 @@ section p {
   gap: 0.3rem;
   margin-bottom: 0.6rem;
 }
+
+.form-grupo label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--cor-texto);
+}
