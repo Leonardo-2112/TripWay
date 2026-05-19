@@ -325,3 +325,14 @@ pacote-card-body h2 a:hover {
   color: var(--cor-texto-suave);
   line-height: 1.8;
 }
+
+.preco-destaque {
+  display: inline-block;
+  margin-top: 0.8rem;
+  background-color: var(--cor-secundaria);
+  color: #fff;
+  padding: 0.3rem 0.9rem;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
