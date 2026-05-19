@@ -319,3 +319,9 @@ pacote-card-body h2 a:hover {
   margin-bottom: 0.3rem;
   font-weight: 600;
 }
+
+.pacote-card-body p {
+  font-size: 0.92rem;
+  color: var(--cor-texto-suave);
+  line-height: 1.8;
+}
