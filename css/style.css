@@ -4,3 +4,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --cor-primaria: #1a6b4a;
+  --cor-primaria-escura: #134d36;
+  --cor-secundaria: #f4a623;
+  --cor-secundaria-hover: #d4891a;
+  --cor-fundo: #f9f9f6;
+  --cor-fundo-card: #ffffff;
+  --cor-texto: #2c2c2c;
+  --cor-texto-suave: #555555;
+  --cor-borda: #ddd;
+  --cor-nav: #ffffff;
+  --cor-footer-fundo: #1a1a1a;
+  --cor-footer-texto: #cccccc;
+  --fonte-principal: 'Poppins', sans-serif;
+  --sombra-card: 0 4px 16px rgba(0, 0, 0, 0.10);
+  --sombra-card-hover: 0 8px 28px rgba(0, 0, 0, 0.18);
+  --border-radius: 10px;
+  --transicao: 0.3s ease;
+}
