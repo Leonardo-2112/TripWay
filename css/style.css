@@ -245,3 +245,9 @@ section p {
   flex-direction: column;
   gap: 0.4rem;
 }
+
+.card h2 {
+  font-size: 1.15rem;
+  color: var(--cor-primaria);
+  margin: 0;
+}
