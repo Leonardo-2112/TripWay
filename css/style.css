@@ -128,3 +128,9 @@ section {
   max-width: 900px;
   text-align: center;
 }
+
+section h2 {
+  font-size: 1.6rem;
+  color: var(--cor-primaria);
+  margin-bottom: 1rem;
+}
