@@ -311,3 +311,11 @@ section p {
 pacote-card-body h2 a:hover {
   color: var(--cor-primaria-escura);
 }
+
+.pacote-card-body h3 {
+  font-size: 0.95rem;
+  color: var(--cor-texto-suave);
+  margin-top: 0.8rem;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
