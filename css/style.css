@@ -420,3 +420,10 @@ footer p {
   margin: 0.3rem 0;
   font-size: 0.88rem;
 }
+
+.footer-social {
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
