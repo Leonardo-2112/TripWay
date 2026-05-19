@@ -251,3 +251,9 @@ section p {
   color: var(--cor-primaria);
   margin: 0;
 }
+
+.card p {
+  font-size: 0.88rem;
+  color: var(--cor-texto-suave);
+  margin: 0;
+}
