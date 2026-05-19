@@ -290,3 +290,7 @@ section p {
   object-fit: cover;
   display: block;
 }
+
+.pacote-card-body {
+  padding: 1.2rem 1.5rem;
+}
