@@ -140,3 +140,20 @@ section p {
   font-size: 0.97rem;
   margin-bottom: 1rem;
 }
+
+/* BOTÕES */
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  background-color: var(--cor-primaria);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--transicao), transform var(--transicao), box-shadow var(--transicao);
+  margin-top: 1rem;
+}
