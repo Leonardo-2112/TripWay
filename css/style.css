@@ -307,3 +307,7 @@ section p {
   color: var(--cor-primaria);
   transition: color var(--transicao);
 }
+
+pacote-card-body h2 a:hover {
+  color: var(--cor-primaria-escura);
+}
