@@ -485,6 +485,7 @@ img {
   main {
     padding: 1.5rem 1rem;
   }
+}
 
 /* RESPONSIVIDADE - CELULAR (max 480px) */
 @media (max-width: 480px) {
