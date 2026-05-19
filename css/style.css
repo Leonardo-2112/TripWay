@@ -282,3 +282,11 @@ section p {
   box-shadow: var(--sombra-card-hover);
   transform: translateY(-3px);
 }
+
+.pacote-card img {
+  width: 100%;
+  max-width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
