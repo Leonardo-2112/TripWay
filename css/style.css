@@ -212,3 +212,17 @@ section p {
   justify-content: center;
   margin-top: 1.5rem;
 }
+
+.card {
+  background-color: var(--cor-fundo-card);
+  border-radius: var(--border-radius);
+  box-shadow: var(--sombra-card);
+  overflow: hidden;
+  flex: 1 1 260px;
+  max-width: 300px;
+  text-decoration: none;
+  color: var(--cor-texto);
+  transition: transform var(--transicao), box-shadow var(--transicao);
+  display: flex;
+  flex-direction: column;
+}
