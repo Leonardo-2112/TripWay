@@ -183,3 +183,18 @@ section p {
   background-color: var(--cor-primaria);
   color: #ffffff;
 }
+
+.btn-enviar {
+  width: 100%;
+  padding: 0.85rem;
+  background-color: var(--cor-primaria);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: var(--fonte-principal);
+  cursor: pointer;
+  transition: background-color var(--transicao), transform var(--transicao);
+  margin-top: 0.5rem;
+}
