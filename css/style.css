@@ -379,3 +379,11 @@ section p {
   color: var(--cor-texto);
   transition: border-color var(--transicao), box-shadow var(--transicao);
 }
+
+.form-grupo input:focus,
+.form-grupo select:focus,
+.form-grupo textarea:focus {
+  outline: none;
+  border-color: var(--cor-primaria);
+  box-shadow: 0 0 0 3px rgba(26, 107, 74, 0.15);
+}
