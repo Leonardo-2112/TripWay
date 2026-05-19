@@ -97,3 +97,10 @@ header h1 {
   color: var(--cor-primaria);
   margin-bottom: 1rem;
 }
+
+header p {
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+  color: var(--cor-texto-suave);
+  font-size: 1rem;
+}
