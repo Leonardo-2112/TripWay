@@ -122,3 +122,9 @@ main {
   justify-content: center;
   padding: 2rem 1.5rem;
 }
+
+section {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+}
