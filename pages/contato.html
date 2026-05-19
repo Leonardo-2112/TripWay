@@ -31,13 +31,16 @@
 
             <h1>Faça sua reserva conosco agora</h1>
 
-            <img src="../images/banner-reserva.jpeg" alt="Banner de reservas" class="banner-img" style="margin: 1rem auto;">
+            <img src="../images/banner-reserva.jpeg" alt="Banner de reservas" class="banner-img"
+                style="margin: 1rem auto;">
 
-            <form>
+            <form id="form-reserva">
                 <h2>Informações para Reserva</h2>
 
-                <label>Nome:</label>
-                <input type="text" required>
+                <div class="form-grupo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                </div>
 
                 <label>E-mail:</label>
                 <input type="email" required>
