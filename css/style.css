@@ -24,3 +24,14 @@
   --border-radius: 10px;
   --transicao: 0.3s ease;
 }
+
+/* --- Body --- */
+body {
+  font-family: var(--fonte-principal);
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
