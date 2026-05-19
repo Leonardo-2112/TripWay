@@ -134,3 +134,9 @@ section h2 {
   color: var(--cor-primaria);
   margin-bottom: 1rem;
 }
+
+section p {
+  color: var(--cor-texto-suave);
+  font-size: 0.97rem;
+  margin-bottom: 1rem;
+}
