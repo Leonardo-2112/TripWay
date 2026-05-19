@@ -113,3 +113,30 @@ header p {
   object-fit: cover;
   box-shadow: var(--sombra-card);
 }
+
+/*MAIN E SECTIONS*/
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+}
+
+section {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 1.6rem;
+  color: var(--cor-primaria);
+  margin-bottom: 1rem;
+}
+
+section p {
+  color: var(--cor-texto-suave);
+  font-size: 0.97rem;
+  margin-bottom: 1rem;
+}
