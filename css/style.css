@@ -113,3 +113,12 @@ header p {
   object-fit: cover;
   box-shadow: var(--sombra-card);
 }
+
+/*MAIN E SECTIONS*/
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+}
