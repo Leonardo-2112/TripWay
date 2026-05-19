@@ -157,3 +157,9 @@ section p {
   transition: background-color var(--transicao), transform var(--transicao), box-shadow var(--transicao);
   margin-top: 1rem;
 }
+
+.btn:hover {
+  background-color: var(--cor-primaria-escura);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(26, 107, 74, 0.3);
+}
