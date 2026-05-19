@@ -308,7 +308,7 @@ section p {
   transition: color var(--transicao);
 }
 
-pacote-card-body h2 a:hover {
+.pacote-card-body h2 a:hover {
   color: var(--cor-primaria-escura);
 }
 
@@ -346,4 +346,10 @@ pacote-card-body h2 a:hover {
   text-align: left;
   gap: 0.5rem;
   margin-top: 1rem;
+}
+
+#form-reserva h2 {
+  text-align: center;
+  color: var(--cor-primaria);
+  margin-bottom: 0.5rem;
 }
