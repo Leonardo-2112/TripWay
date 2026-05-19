@@ -58,3 +58,29 @@ nav {
   letter-spacing: 1px;
   transition: color var(--transicao);
 }
+
+.nav-logo:hover {
+  color: var(--cor-primaria-escura);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--cor-texto);
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  transition: background-color var(--transicao), color var(--transicao);
+}
+
+.nav-links a:hover {
+  background-color: var(--cor-primaria);
+  color: #ffffff;
+}
