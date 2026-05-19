@@ -337,7 +337,6 @@ section p {
   font-size: 0.95rem;
 }
 
-
 /* FORMULÁRIO - CONTATO */
 
 #form-reserva {
@@ -393,7 +392,6 @@ section p {
   resize: vertical;
 }
 
-
 /* HOME - SEÇÃO SOBRE*/
 #sobre {
   background-color: var(--cor-fundo-card);
@@ -406,4 +404,37 @@ section p {
 #sobre h2 {
   color: var(--cor-primaria);
   margin-bottom: 0.8rem;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  padding: 1.8rem 1rem;
+  background-color: var(--cor-footer-fundo);
+  color: var(--cor-footer-texto);
+  margin-top: auto;
+}
+
+footer p {
+  margin: 0.3rem 0;
+  font-size: 0.88rem;
+}
+
+.footer-social {
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-social a {
+  color: var(--cor-footer-texto);
+  text-decoration: none;
+  font-size: 0.88rem;
+  transition: color var(--transicao);
+}
+
+.footer-social a:hover {
+  color: var(--cor-secundaria);
 }
