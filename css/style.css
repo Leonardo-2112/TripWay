@@ -446,3 +446,43 @@ footer p {
   height: auto;
   display: block;
 }
+
+/*RESPONSIVIDADE - TABLET (max 768px)*/
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  .banner-img {
+    width: 95%;
+  }
+
+  .cards-container {
+    flex-direction: row;
+  }
+
+  .card {
+    flex: 1 1 45%;
+    max-width: 48%;
+  }
+
+  .pacote-card img {
+    height: 180px;
+  }
+
+  main {
+    padding: 1.5rem 1rem;
+  }
+}
