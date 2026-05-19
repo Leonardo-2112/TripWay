@@ -294,3 +294,10 @@ section p {
 .pacote-card-body {
   padding: 1.2rem 1.5rem;
 }
+
+.pacote-card-body h2 {
+  font-size: 1.25rem;
+  color: var(--cor-primaria);
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
