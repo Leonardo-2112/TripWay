@@ -438,3 +438,11 @@ footer p {
 .footer-social a:hover {
   color: var(--cor-secundaria);
 }
+
+/* IMAGENS GERAIS */
+
+.img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
