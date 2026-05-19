@@ -104,3 +104,12 @@ header p {
   color: var(--cor-texto-suave);
   font-size: 1rem;
 }
+
+.banner-img {
+  width: 80%;
+  max-width: 800px;
+  border-radius: var(--border-radius);
+  margin: 1rem auto;
+  object-fit: cover;
+  box-shadow: var(--sombra-card);
+}
