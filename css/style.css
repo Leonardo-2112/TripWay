@@ -226,3 +226,8 @@ section p {
   display: flex;
   flex-direction: column;
 }
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--sombra-card-hover);
+}
