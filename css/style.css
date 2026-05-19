@@ -301,3 +301,9 @@ section p {
   margin-bottom: 0.5rem;
   text-decoration: none;
 }
+
+.pacote-card-body h2 a {
+  text-decoration: none;
+  color: var(--cor-primaria);
+  transition: color var(--transicao);
+}
