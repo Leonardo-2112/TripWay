@@ -353,3 +353,10 @@ section p {
   color: var(--cor-primaria);
   margin-bottom: 0.5rem;
 }
+
+.form-grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-bottom: 0.6rem;
+}
